@@ -2,9 +2,8 @@ import { useEffect, useState } from 'react'
 import { useWindowSize } from '@react-hook/window-size'
 import { useTimer } from 'react-timer-hook';
 import MyConfetti from './MyConfetti';
-import './App.css'
 import Countdown from 'react-countdown';
-
+import './App.css'
 
 function App() {
   const [width, height] = useWindowSize();
