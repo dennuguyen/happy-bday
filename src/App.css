@@ -1,0 +1,21 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.gift {
+  border-radius: 30%;
+  border: none;
+  position: absolute;
+  background-color: transparent;
+  top: 48vh;
+  left: 41vw;
+  width: 260px;
+  height: 280px;
+  cursor: pointer;
+}
