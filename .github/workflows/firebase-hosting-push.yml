@@ -19,3 +19,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HAPPY_BDAY_432817 }}
           channelId: live
           projectId: happy-bday-432817
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
